@@ -1,8 +1,15 @@
 RYE, CHANGES
 
-#### 0.9.3 (2010-??-??) #############################
+#### 0.9.4 (2011-02-14) #############################
 
+* FIXED: Box#method_missing fix for to_ary exception in Ruby 1.9.2
+
+#### 0.9.3 (2011-01-29) #############################
+
+* ADDED: Rye::Hop for gateway support. 
+  (https://github.com/delano/rye/issues/closed#issue/10)
 * CHANGE: Don't overwrite :paranoid option
+
 
 #### 0.9.2 (2010-10-25) #############################
 
